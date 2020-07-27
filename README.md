@@ -1,9 +1,6 @@
-# ember-find-related-files
+# This is a fork of ember-find-related-files
 
-[![](https://img.shields.io/npm/v/ember-find-related-files.svg)](https://www.npmjs.com/package/ember-find-related-files)
-[![](https://travis-ci.org/josa42/ember-find-related-files.svg?branch=master)](https://travis-ci.org/josa42/ember-find-related-files)
-[![](https://img.shields.io/appveyor/ci/josa42/ember-find-related-files/master.svg)](https://ci.appveyor.com/project/josa42/ember-find-related-files)
-[![](https://img.shields.io/codecov/c/github/josa42/ember-find-related-files/master.svg)](https://codecov.io/gh/josa42/ember-find-related-files)
+*This is a modified version of ember-related-files for supporting indexed pods according to [component template colocation](https://github.com/emberjs/rfcs/blob/master/text/0481-component-templates-co-location.md#detailed-design). So far it backs a [modified version of the VSCode extension](https://github.com/NoneOfMaster/vscode-ember-related-files).*
 
 Find related files in an EmberJS project directory.
 
@@ -29,11 +26,6 @@ findType('/Users/josa/g/my-app', 'component')
 // ]
 
 ```
-
-Support library for:
-
-- [vscode-ember-related-files](https://github.com/josa42/vscode-ember-related-files)
-- [atom-ember-related-files](https://github.com/josa42/atom-ember-related-files)
 
 ## License
 
